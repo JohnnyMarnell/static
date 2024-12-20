@@ -1,3 +1,9 @@
+/* Include as much readable text as possible in cells */
+.row .cell .text-cell .value {
+    white-space: nowrap;
+}
+
+/* Get rid of Budibase table select and numbering column, unnecessary space waste */
 .sticky-column {
     display: none !important;
 }
